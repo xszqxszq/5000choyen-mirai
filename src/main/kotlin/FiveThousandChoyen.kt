@@ -15,7 +15,7 @@ import com.soywiz.korma.geom.vector.LineJoin
 import java.lang.Double.max
 
 class FiveThousandChoyen(
-    val topFont: String = "Source Han Sans CN Bold",
+    val topFont: String = "Source Han Sans CN Bold Bold",
     val bottomFont: String = "Source Han Serif SC Bold",
     val transparency: Boolean = false,
     val size: Double = 100.0
@@ -26,6 +26,7 @@ class FiveThousandChoyen(
     val bottomY = 230
     val fonts = MultiPlatformNativeSystemFontProvider()
     fun generate(top: String, bottom: String): Bitmap {
+        println(fonts.listFontNamesWithFiles())
         val result = NativeImageOrBitmap32(1500, 270, true)
         var rightBorder = 1500.0
         result.context2d {

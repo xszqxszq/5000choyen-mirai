@@ -118,7 +118,7 @@ object FiveThousandChoyenPlugin : KotlinPlugin(
     }
 }
 object FiveThousandChoyenConfig: AutoSavePluginConfig("config") {
-    val topFont by value("Source Han Sans CN Bold")
+    val topFont by value("Source Han Sans CN Bold Bold")
     val bottomFont by value("Source Han Serif SC Bold")
     val transparency by value(false)
     val commands by value(listOf("/生成5k", "生成5k", "/gocho", "gocho", "/choyen", "choyen", "/5k"))
