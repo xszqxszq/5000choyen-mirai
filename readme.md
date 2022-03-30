@@ -1,6 +1,6 @@
 # 5000choyen-mirai
 
-这是一个使用 Kotlin 实现的 [5000choyen](https://github.com/yurafuca/5000choyen) 风格文字生成插件。无需外挂 nodejs 服务器，开箱即用。
+这是一个使用 Kotlin 实现的生成 [5000choyen](https://github.com/yurafuca/5000choyen) 风格文字的 [mirai](https://github.com/mamoe/mirai) 插件。无需外挂 nodejs 服务器，开箱即用。
 
 ## 使用方法
 
