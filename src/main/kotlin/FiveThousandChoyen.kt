@@ -26,7 +26,6 @@ class FiveThousandChoyen(
     val bottomY = 230
     val fonts = MultiPlatformNativeSystemFontProvider()
     fun generate(top: String, bottom: String): Bitmap {
-        println(fonts.listFontNamesWithFiles())
         val result = NativeImageOrBitmap32(1500, 270, true)
         var rightBorder = 1500.0
         result.context2d {
