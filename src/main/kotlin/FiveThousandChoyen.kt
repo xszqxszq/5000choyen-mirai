@@ -15,7 +15,7 @@ import com.soywiz.korma.geom.vector.LineJoin
 import java.lang.Double.max
 
 class FiveThousandChoyen(
-    val topFont: String = "Source Han Sans CN Bold Bold",
+    val topFont: String = "Source Han Sans CN Bold",
     val bottomFont: String = "Source Han Serif SC Bold",
     val transparency: Boolean = false,
     val size: Double = 100.0

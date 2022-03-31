@@ -1,3 +1,6 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+import net.mamoe.mirai.console.gradle.BuildMiraiPluginTask
+
 plugins {
     val kotlinVersion = "1.6.10"
     kotlin("jvm") version kotlinVersion
